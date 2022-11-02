@@ -1,0 +1,46 @@
+{
+    "@schema": "https://raw.githubusercontent.com/slicer/slicer/master/Modules/Loadable/Markups/Resources/Schema/markups-schema-v1.0.3.json#",
+    "markups": [
+        {
+            "type": "Plane",
+            "coordinateSystem": "LPS",
+            "coordinateUnits": "mm",
+            "locked": false,
+            "fixedNumberOfControlPoints": false,
+            "labelFormat": "%N-%d",
+            "lastUsedControlPointNumber": 1,
+            "planeType": "pointNormal",
+            "sizeMode": "absolute",
+            "autoScalingFactor": 1.0,
+            "center": [-27.254434585571287, -32.0713871723232, -29.315385517520679],
+            "normal": [-0.5132426164609184, -0.5952642626027292, -0.6182576116121659],
+            "objectToBase": [-1.0, -0.0, -0.0, -0.0, -0.0, -1.0, -0.0, -0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0],
+            "baseToNode": [0.3605554649112009, 0.7788335979983263, -0.5132426164609184, -27.254434585571287, 0.5041729140109735, -0.6256757390579505, -0.5952642626027292, -32.0713871723232, -0.7847352607729253, -0.0441372425879675, -0.6182576116121659, -29.315385517520679, 0.0, 0.0, 0.0, 1.0],
+            "orientation": [0.3605554649112009, 0.7788335979983263, -0.5132426164609184, 0.5041729140109735, -0.6256757390579505, -0.5952642626027292, -0.7847352607729253, -0.0441372425879675, -0.6182576116121659],
+            "size": [30.000000000000005, 29.999999999999994, 0.0],
+            "planeBounds": [-15.000000000000002, 15.000000000000002, -14.999999999999997, 14.999999999999997],
+            "controlPoints": [
+                {
+                    "id": "1",
+                    "label": "P2",
+                    "description": "",
+                    "associatedNodeID": "",
+                    "position": [-27.254434585571287, -32.0713871723232, -29.315385517520679],
+                    "orientation": [-1.0, -0.0, -0.0, -0.0, -1.0, -0.0, 0.0, 0.0, 1.0],
+                    "selected": true,
+                    "locked": false,
+                    "visibility": true,
+                    "positionStatus": "defined"
+                }
+            ],
+            "measurements": [
+                {
+                    "name": "area",
+                    "enabled": false,
+                    "units": "cm2",
+                    "printFormat": "%-#4.4g%s"
+                }
+            ]
+        }
+    ]
+}
